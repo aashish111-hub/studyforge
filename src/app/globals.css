@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Base design tokens for StudyForge */
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --brand: #4f46e5;
+  --brand-foreground: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand: var(--brand);
+  --color-brand-foreground: var(--brand-foreground);
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
