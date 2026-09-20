@@ -24,7 +24,7 @@ export function NoteInputForm() {
       className="space-y-3 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm"
     >
       <label htmlFor="notes" className="sr-only">
-        Paste your notes
+        Study notes
       </label>
       <textarea
         id="notes"
