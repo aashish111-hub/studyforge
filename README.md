@@ -103,14 +103,14 @@ npm test -- --coverage
 
 ### Final test result
 
-* Test files: **1 passed**
-* Tests: **7 passed / 7**
-* Statement coverage: **51.21%**
-* Branch coverage: **71.05%**
-* Function coverage: **33.33%**
-* Line coverage: **52.5%**
+* Test files: **2 passed**
+* Tests: **8 passed / 8**
+* Statement coverage: **54.54%**
+* Branch coverage: **70.83%**
+* Function coverage: **50%**
+* Line coverage: **56.6%**
 
-The tests focus on the validation and resilience logic in `generate.ts`, including valid JSON, fenced JSON, invalid JSON, missing fields, malformed flashcards, malformed quiz questions, and empty arrays.
+The tests cover the validation and resilience logic in `generate.ts` and the `NoteInputForm` component, including valid JSON, fenced JSON, invalid JSON, missing fields, malformed flashcards, malformed quiz questions, empty arrays, and the accessible empty-submit error state.
 
 ## Accessibility
 
@@ -120,6 +120,7 @@ StudyForge uses semantic interactive elements and accessible feedback states.
 * Form errors use `aria-invalid`, `aria-describedby`, and `role="alert"`.
 * Loading feedback uses `aria-live="polite"`.
 * Interactive controls have visible focus styles.
+* The notes textarea has an explicit accessible label.
 
 ### Lighthouse
 

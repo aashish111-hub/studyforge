@@ -4,8 +4,8 @@
 
 * [x] `GROQ_API_KEY` set in Vercel project environment variables and not committed to the repository
 * [x] `npm install` completes successfully
-* [x] `npm test` passes locally: 7/7 tests passed
-* [x] Test coverage recorded: 51.21% statements, 71.05% branches, 33.33% functions, 52.5% lines
+* [x] `npm test` passes locally: **8/8 tests passed**
+* [x] Test coverage recorded: **54.54% statements, 70.83% branches, 50% functions, 56.6% lines**
 * [x] Production build/deployment completed successfully on Vercel
 * [x] Live home → generate flow tested with a real API key
 * [x] Live AI generation tested successfully
